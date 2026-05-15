@@ -1,0 +1,29 @@
+# ---------------------------------------------
+# Cấu hình bỏ qua các file rác khi đẩy lên GitHub
+# ---------------------------------------------
+
+# 1. Các file cấu hình của phần mềm code (IDE)
+.idea/
+.vscode/
+*.iml
+*.eclipse
+
+# 2. Các file rác của Frontend (VueJS)
+frontend/node_modules/
+frontend/dist/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# 3. Các file rác của Backend (Spring Boot / Java)
+backend/target/
+backend/bin/
+backend/*.log
+backend/logs/
+*.class
+*.jar
+*.war
+
+# 4. Các file của Hệ điều hành
+.DS_Store
+Thumbs.db
